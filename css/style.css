@@ -1,0 +1,566 @@
+/********** Меню **********/
+nav{
+    background-color: #F1F1F1;
+    min-height: 88px;
+}
+.tel {
+    margin: 0;
+    color: #2C97FF;
+    font: 25pt 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.menu-text{ 
+    font: 11pt  'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/********** Главная страница **********/
+.index-bg {
+    background: url(../images/bg-index.png) no-repeat center center;
+    background-size: cover; 
+}
+.left-box{
+    padding:100px 0 0 30px;
+}
+.right-box{
+    margin-right: 15px;
+    background: url(../images/bg-pc.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.right-button{
+    font:16pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    background-color: #49cd8a;
+    border-radius: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.right-top{
+    color: #2C97FF;
+}
+.rigth-center{
+    height: 336px;
+    padding: 80px 0px;
+    font: 15pt 'Open Sans', sans-serif;
+}
+.services-box {
+    margin: 60px 75px;
+}
+.bot-box{
+    background: url(../images/bg-flash.png) no-repeat;
+    background-position: 95% 50%;
+    background-size: 25%;
+}
+.bot-top {
+    margin-top: 40px;
+    font:16pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 20px 30px;
+    background: linear-gradient(to top, #2b495a, #49c988);
+    border-radius: 15px;
+    color: #ffffff;
+}
+.bot-bot{
+    font:16pt 'Open Sans', sans-serif;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2b495a;
+}
+.box-shadow{
+    box-shadow: 0px 70px 15px 0px rgba(0,0,0,0.75)
+}
+.bot-banner{
+    height: 446px;
+    background: url(../images/bot-banner.png);
+}
+.bot-banner-text {
+    width: 170px;
+}
+.bot-banner-text p {
+    font:16pt 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+.bot-banner-position-1 {
+    position: absolute;
+    top: 220px;
+    left: 95px;
+}
+.bot-banner-position-2 {
+    position: absolute;
+    top: 135px;
+    left: 305px;
+}
+.bot-banner-position-3 {
+    position: absolute;
+    top: 220px;
+    left: 525px;
+}
+.bot-banner-position-4 {
+    position: absolute;
+    top: 135px;
+    left: 725px;
+}
+.bot-banner-position-5 {
+    width: 200px;
+    position: absolute;
+    top: 220px;
+    left: 925px;
+}
+.footer-box{
+    min-height: 100px;
+    background: linear-gradient(#fff,#F1F1F1);
+}
+/********** Аутсорсинг на пальцах **********/
+.finger-main-text {
+    font: 13pt  'Open Sans', sans-serif;
+    font-weight: bold;
+    text-indent: 1.5em;
+    margin-top: 100px;
+}
+.finger-bot-text {
+    font: 14pt  'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 50px 100px 0px 100px;
+}
+.finger-header-text {
+    color: #2C97FF;
+    font: 20pt 'Open Sans', sans-serif;
+}
+.finger-box-margin {
+    margin-top: 10px;
+}
+.finger-footer-box {
+    margin-top: 40px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #49cd8a;
+    border-radius: 15px;
+    color: #ffffff;
+}
+/********** Слайдер **********/
+#wrapper {
+	width:1160px;
+    margin-top: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:visible;
+}
+#slider {
+	position:relative;
+	overflow:hidden;
+}
+.content {
+	width:1200px;
+	float: left;
+	position: relative;
+	background-color:#FFF;
+}
+.inslider a {
+	text-decoration:none;
+}
+.contentholder {
+	height:455px;
+	width: 1200px;
+	overflow: hidden;
+	position: relative;
+	background-color:#FFF;
+}
+.contentslider {
+	position: absolute;
+	top: 0; left: 0;
+}
+.imgslider img {
+	float: left;
+}
+.contentnav {
+	position: absolute;
+	bottom: 10px; left:360px;
+	 height:30px;
+	z-index: 100;
+	text-align: center;
+}
+.contentnav a {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0);
+}
+.contentnav a.active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+/********** Тарифы **********/
+.tarif-bg {
+    background: url(../images/bg-tarif.png) no-repeat center center;
+    background-size: cover;    
+}
+.tarif-center-text {
+    margin-top: 200px;
+    color: #ffffff;
+    font:42pt 'Open Sans', sans-serif;
+}
+.tarif-center-text h2 {
+    font:42pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tarif-right-text {
+    margin-top: 100px;
+    color: #fff;
+    font:28pt 'Open Sans', sans-serif;
+}
+.tarif-right-text h2 {
+    font:30pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form-button {
+    font:14pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #49cd8a;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.tarif-form {
+    margin: 30px 0px 20px 0px;
+}
+.tarif-blue-text {
+    padding: 15px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #284f66;
+    text-transform: uppercase;
+}
+.tarif-green-text {
+    background: linear-gradient(to right, #ffffff 0%,#49cd8a 15%,#49cd8a 80%,#49cd8a 85%,#ffffff 100%);
+    padding: 10px 0px 10px 120px;
+    font:28pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #284f66;
+}
+.tarif-block-h {
+    padding: 20px 30px;
+}
+.tarif-block-p {
+    font:14pt 'Open Sans', sans-serif;
+}
+.tarif-table {
+    background: #e6e6e6;
+    padding: 0px;
+}
+.tarif-table-bot {
+    background: #fff;
+}
+th {
+    font:16pt 'Open Sans', sans-serif;
+    color: #284f66;
+    font-weight: bold;
+}
+td:nth-child(2n) {
+    background: #fff;
+}
+td:nth-child(n+2) {
+    font:20pt 'Open Sans', sans-serif;
+    color: #49cd8a;
+    font-weight: bold;
+}
+td:first-child {
+    font:16pt 'Open Sans', sans-serif;
+}
+.tarif-calc {
+    background: #e6e6e6;
+    border-radius: 5px;
+}
+/********** Принтеры **********/
+.printer-bg {
+    background: url(../images/bg-printer.png) no-repeat center center;
+    background-size: cover; 
+}
+.printer-center-text {
+    margin-top: 100px;
+    color: #fff;
+    font:42pt 'Open Sans', sans-serif;
+}
+.printer-bg-green {
+    background-color: #efefef;
+    background: url(../images/green-line-printer.png) no-repeat top;
+    background-size: 100% 100%; 
+}
+.printer-text-green {
+    padding: 30px 0px 50px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.printer-ul-green {
+    padding: 50px 0px;
+}
+.printer-ul-green ul {
+    font:18pt 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 1.4;
+}
+.printer-ul-green img {
+    float: left;
+    margin-right: 40px;
+}
+.printer-bg-blue {
+    background-color: #efefef;
+    background: url(../images/blue-line-printer.png) no-repeat top;
+    background-size: 100% 100%; 
+}
+.printer-text-blue {
+    padding: 50px 0px 30px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.printer-feedback-box {
+    background-color: #efefef;
+    border-radius: 15px;
+}
+.printer-feedback-form {
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #2b495a;
+    border: 3px solid #2b495a;
+}
+.printer-feedback-top {
+    padding: 0px 30px;
+    color: #2b495a;
+    font:20pt 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.printer-feedback-button {
+    font:14pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #2b495a;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.printer-bot {
+    margin-top: 100px;
+    font:15pt 'Open Sans', sans-serif;
+}
+/********** Софт **********/
+.soft-bg {
+    background: url(../images/bg-soft.PNG) no-repeat center center;
+    background-size: cover; 
+}
+.soft-center-text {
+    margin-top: 100px;
+    color: #fff;
+    font:36pt 'Open Sans', sans-serif;}
+.soft-center-text h2 {
+    font:30pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.soft-right-h2 {
+    font:30pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+.soft-text-white{
+    padding: 20px 0px 10px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+    text-transform: uppercase;
+}
+.soft-store {
+    background-color: #efefef;
+    color: #2b495a;
+    font:18pt 'Open Sans', sans-serif;}
+.soft-store-top{
+    padding: 50px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+    text-transform: uppercase;
+}
+.soft-store-top a {
+    color: #2b495a;
+}
+.soft-store img {
+    float: right;
+}
+.soft-help-bg {
+    background-color: #49cd8a;
+}
+.soft-help-text {
+    padding: 30px 0px 20px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.soft-help-right {
+    margin-top: 50px;
+}
+.soft-help-right img {
+    padding: 5px 0px;
+    float: left;
+}
+.soft-help-right p {
+    padding: 20px 0px 0px 150px;
+    font:18pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;    
+}
+.soft-number-ol {
+    margin-top: 50px;
+}
+.soft-number-ol img {
+    padding: 5px 0px;
+    float: left;
+}
+.soft-number-ol p {
+    padding-left: 100px;
+    font:18pt 'Open Sans', sans-serif;
+    color: #2b495a;    
+}
+.soft-feedback-top {
+    color: #2b495a;
+    font:20pt 'Open Sans', sans-serif;
+}
+.soft-store-button {
+    margin: 20px 0px 50px 0px;
+    font:20pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px 30px;
+    background-color: #2b495a;
+    border-radius: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/********** Монтаж **********/
+.install-bg {
+    background: url(../images/bg-install.PNG) no-repeat center center;
+    background-size: cover; 
+}
+.install-wug-bg {
+    background: url(../images/bg-wug.PNG) no-repeat center center;
+    background-size: cover; 
+}
+.install-wug-top {
+    padding: 30px 0px 10px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.install-note-bg {
+    height: 963px;
+    background: url(../images/note.PNG) no-repeat center center;
+    background-size: contain;
+}
+.install-step-text {
+    width: 230px;
+    font:16pt 'Open Sans', sans-serif;
+    color: #2b495a;
+    font-weight: bold;
+}
+.install-step-position-1 {
+    position: absolute;
+    top: 180px;
+    left: 30px;
+}
+.install-step-position-2 {
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+.install-step-position-3 {
+    position: absolute;
+    top: 180px;
+    left: 660px;
+}
+.install-step-position-4 {
+    position: absolute;
+    top: 465px;
+    left: 30px;
+}
+.install-step-position-5 {
+    position: absolute;
+    top: 465px;
+    left: 350px;
+}
+.install-step-position-6 {
+    position: absolute;
+    top: 465px;
+    left: 660px;
+}
+.install-bg-green {
+    background-color: #efefef;
+    background: url(../images/green-line-install.png) no-repeat top;
+    background-size: 100% 100%; 
+}
+.install-text-green {
+    padding: 20px 0px 20px 0px;
+    font:22pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+.install-text {
+    padding: 20px 40px;
+    font:18pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+}
+.install-number-ol {
+    margin-top: 180px;
+}
+.install-number-ol img {
+    float: left;
+}
+.install-number-ol p {
+    padding-left: 100px;
+    font:18pt 'Open Sans', sans-serif;
+    color: #2b495a;
+    font-weight: bold;
+}
+.install-orange-text {
+    margin-top: 50px;
+}
+.install-orange-text img {
+    float: left;
+}
+.install-orange-text p {
+    padding: 20px 0px 20px 100px;
+    font:20pt 'Open Sans', sans-serif;
+    color: #f26534;
+    font-weight: bold;
+}
+.install-image {
+    position: relative;
+	width: 100%; /* for IE 6 */
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.install-bg-grad {
+     background: linear-gradient(to top, #2b495a, #49c988);
+}
+.install-step-bg {
+    background: linear-gradient(to top, #efefef, #2b495a);
+}

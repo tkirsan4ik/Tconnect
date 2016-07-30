@@ -1,0 +1,14 @@
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:process_reader_win.cc(141)] SuspendThread: Отказано в доступе. (0x5)
+[0614/192732:ERROR:exception_snapshot_win.cc(57)] thread ID 10332 not found in process
+[0614/192732:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed

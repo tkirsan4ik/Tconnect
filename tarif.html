@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Тамбов-коннект</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script>
+        // With JQuery
+            $("#ex6").slider();
+            $("#ex6").on("slide", function(slideEvt) {
+                $("#ex6SliderVal").text(slideEvt.value);
+            });
+
+            // Without JQuery
+            var slider = new Slider("#ex6");
+            slider.on("slide", function(slideEvt) {
+                $("#ex6SliderVal").text(slideEvt.value);
+            });)
+    </script>
+  </head>
+  <body>
+    <nav class="navbar-default">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-1 navbar-header">
+                    <a href="index.html" class="navbar-brand"><img src="images/logo.png" alt=""></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#responsive-menu" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-lg-4 col-lg-offset-7 hidden-xs">
+                    <h1 class="tel text-right">8 906 657 92 52</h1>
+                </div>
+                
+                <div class="col-lg-12 collapse navbar-collapse" id="responsive-menu">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul class="nav navbar-nav hidden-sm">
+                                <li class="menu-text"><a href="About.html">о компании</a></li>
+                                <li class="menu-text"><a href="http://chuikov.eshop.mont.ru">программное обеспечение</a></li>
+                                <li class="menu-text"><a href="Why.html">почему мы</a></li>
+                                <li class="droprown menu-text">
+                                    <a href="services.html" class="dropdown-toggle" role="button" data-toggle="dropdown">услуги
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#">услуга1</a></li>
+                                        <li><a href="#">услуга2</a></li>
+                                        <li><a href="#">услуга3</a></li>
+                                        <li><a href="#">услуга4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-text"><a href="FAQ.html">частые вопросы</a></li>
+                                <li class="menu-text"><a href="advice.html">полезные советы</a></li>
+                                <li class="menu-text"><a href="contact.html">контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid tarif-bg">
+       <div class="container">
+            <div class="tarif-center-text col-lg-8 col-lg-offset-3">
+                   <p>Ищите кому поручить функцию IT аутсорсинга</p>
+                   <h2>В вашем бизнесе?</h2>
+            </div>
+            <div class="tarif-right-text col-lg-12">
+                   <p>Получите персональное предложение по</p>
+                   <h2>IT аутсорсингу</h2>
+                   <p>от компании Тамбов-Коннект</p>
+            </div>
+            <div class="col-lg-12 tarif-form">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <div class="col-lg-4">
+                            <input class="form-control" type="text" size="50" name="contactname" id="contactname" value="" placeholder="Введите имя">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-4">
+                            <input class="form-control" type="text" size="50" name="phone" id="phone" value="" placeholder="+7(123) 456-78-90">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-4">
+                            <input class="form-control" type="text" size="50" name="email" id="email" value="" placeholder="Введите e-mail-адрес">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-2">
+                            <button type="submit" class="btn form-button">получить</button>
+                        </div>
+                    </div>
+                </form>
+           </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-12 text-center tarif-blue-text">
+            <p>IT-АУТСОРСИНГ В ТАМБОВЕ</p>
+        </div>
+    </div>
+     <div class="container">
+        <div class="col-lg-8 text-left tarif-green-text">
+            <p>Почему IT- аутсорсинг стоит заказывать у нас?</p>
+        </div>
+    </div>
+    <div class="container">                       
+        <div class="col-lg-12">
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h"><h3>Тест-драйв услуг</h3></div>
+                <div class="col-lg-12 tarif-block-p"><p>Если вам интересны услуги IT- аутсорсинга, но вы сомневаетесь, попробуйте БЕСПЛАТНОЕ обслуживание в течении месяца, примите решение основываясь на опыте.</p></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h" style="padding: 10px 30px;"><h3>Скидки на программное обеспечение</h3></div>
+                <div class="col-lg-12 tarif-block-p" style="padding: 22px 10px;"><p>Для наших клиентов действуют скидки на программное обеспечение</p></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h"><h3>Мониторинг обращений</h3></div>
+                <div class="col-lg-12 tarif-block-p"><p>В течении года, мы заносим данные  Ваших обращений и в конце года мы вам говорим, какой же тариф для Вас самый выгодный и даем рекомендации по улучшению IT структуры.</p></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h"><h3>Договорные обязательства</h3></div>
+                <div class="col-lg-12 tarif-block-p" style="padding: 13px 30px;"><p>В договоре, кроме юридических и обязательств о неразглошении, есть финансовые обязательства при вине исполнителя.</p></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h"><h3>Политика безопасности</h3></div>
+                <div class="col-lg-12 tarif-block-p"><p>Вы доверяете услугу  одной компании, соответственно для вас снижаются  риски утечки информации. У нас в договоре прописан пункт о конфедициальности!</p></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-2"><img src="images/g1.png" alt=""></div>
+                <div class="col-lg-10 tarif-block-h"><h3>Организация IT- структуры</h3></div>
+                <div class="col-lg-12 tarif-block-p"><p>Мы обслуживаем вашу IT структура и можем предложить менее затратные и более эффективные способы ее организации. </p></div>
+            </div>                                            
+        </div>
+        <div class="col-lg-12 tarif-table">
+            <table class="table table-bordered">
+               <tr>
+                    <th class="text-center" style="border: 0px;">Услуги</th>
+                    <th class="text-center" style="border: 0px;">Базовый</th>
+                    <th class="text-center" style="border: 0px;">Стандарт</th>
+                    <th class="text-center" style="border: 0px;">Максимум</th>
+                </tr>
+                <tr>
+                    <th colspan="4" class="text-center">Базовые услуги</th>                    
+                </tr>
+                <tr>
+                    <td>Удаленное администрирование</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Консультации по телефону</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Аудит IT-структуры</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Установка и настройка программного обесечения</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Сборка компьютеров из комплектующих</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Колличество профилактических выездов в месяц</td>
+                    <td>&#10004</td>
+                    <td>1</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Колличество экстренных выездов в месяц</td>
+                    <td>&#10004</td>
+                    <td>3</td>
+                    <td>&#8734</td>
+                </tr>
+                <tr>
+                    <td>Диагностика и выявление неработающих устройств и их замена</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Установка и настройка операционной системы Windows и Linux</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Лечение от вирусов</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Время прибытия</td>
+                    <td>&#10004</td>
+                    <td>1.5 часа</td>
+                    <td>1.5 часа</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="text-center">Сетевые услуги</th>                    
+                </tr>
+                <tr>
+                    <td>АТС</td>
+                    <td></td>
+                    <td></td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>IP-телефония</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Корпоративная почта</td>
+                    <td></td>
+                    <td></td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Проводная и беспроводная локальная сеть</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <th colspan="4" class="text-center">Дополнительные услуги</th>   
+                </tr>
+                <tr>
+                    <td>Общение с другими сервис-центрами от имени клиента</td>
+                    <td></td>
+                    <td></td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Контроль за состоянием тонера</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Продление лицензии Антивируса входит в обслуживание</td>
+                    <td></td>
+                    <td></td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Создание защиты против взлома и проникновения в сеть</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Резервное копирование информации</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Обновление и настройка BIOS, сброс пароля</td>
+                    <td></td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr>
+                    <td>Помощь в подборе оборудования и программного обеспечения</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                    <td>&#10004</td>
+                </tr>
+                <tr class="tarif-table-bot">
+                    <th class="text-center" style="border: 0px;">Цена:</th>
+                    <th class="text-center" style="border: 0px;">13 р./день</th>
+                    <th class="text-center" style="border: 0px;">19 р/день.</th>
+                    <th class="text-center" style="border: 0px;">Расчитайте<br>стоимость<br>на калькуляторе</th>
+                </tr>       
+            </table>
+        </div>
+        <div class="col-lg-6 tarif-calc">
+            <input id="ex6" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="3"/>
+            <span id="ex6CurrentSliderValLabel">Current Slider Value: <span id="ex6SliderVal">3</span></span>
+        </div>               
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
