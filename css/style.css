@@ -10,7 +10,7 @@ nav{
     font-weight: bold;
 }
 .menu-text{ 
-    font: 11pt  'Open Sans', sans-serif;
+    font: 12pt  'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -73,8 +73,8 @@ nav{
     box-shadow: 0px 70px 15px 0px rgba(0,0,0,0.75)
 }
 .bot-banner{
-    height: 446px;
-    background: url(../images/bot-banner.png);
+    background: url(../images/bot-banner.png)no-repeat center center;
+    background-size: cover;
 }
 .bot-banner-text {
     width: 170px;
@@ -114,6 +114,68 @@ nav{
     min-height: 100px;
     background: linear-gradient(#fff,#F1F1F1);
 }
+.index-step-position-1 {
+    position: absolute;
+    top: 220px;
+    left: 85px;
+}
+.index-step-position-2 {
+    position: absolute;
+    top: 125px;
+    left: 295px;
+}
+.index-step-position-3 {
+    position: absolute;
+    top: 220px;
+    left: 502px;
+}
+.index-step-position-4 {
+    position: absolute;
+    top: 125px;
+    left: 708px;
+}
+.index-step-position-5 {
+    position: absolute;
+    top: 220px;
+    left: 925px;
+}
+.index-step-text {
+    width: 200px;
+    font:16pt 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+/********** Контакты **********/
+.contact-green-text {
+    margin-top: 100px;
+    background: linear-gradient(to right, #ffffff 0%,#49cd8a 15%,#49cd8a 80%,#49cd8a 85%,#ffffff 100%);
+    padding: 10px 172px;
+    font:21pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+}
+.contact-white-text {
+    margin-top: 50px;
+    font:21pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+}
+.contact-text {
+    margin-top: 50px;
+    font:14pt 'Open Sans', sans-serif;
+    color: #2b495a;
+}
+.bottom-box {
+    padding: 10px 30px;
+    margin: 20px 50px;
+    border: 3px solid #7dc8ff;
+    border-radius: 15px;
+    font:14pt 'Open Sans', sans-serif;
+    color: #2b495a;
+}
+.contact-col-text {
+    padding: 10px 0px;
+}
 /********** Аутсорсинг на пальцах **********/
 .finger-main-text {
     font: 13pt  'Open Sans', sans-serif;
@@ -127,6 +189,11 @@ nav{
     padding: 50px 100px 0px 100px;
 }
 .finger-header-text {
+    color: #2C97FF;
+    font: 20pt 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.finger-end-text {
     color: #2C97FF;
     font: 20pt 'Open Sans', sans-serif;
 }
@@ -207,12 +274,12 @@ nav{
     background-size: cover;    
 }
 .tarif-center-text {
-    margin-top: 200px;
+    margin-top: 130px;
     color: #ffffff;
-    font:42pt 'Open Sans', sans-serif;
+    font:28pt 'Open Sans', sans-serif;
 }
 .tarif-center-text h2 {
-    font:42pt 'Open Sans', sans-serif;
+    font:28pt 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -222,7 +289,7 @@ nav{
     font:28pt 'Open Sans', sans-serif;
 }
 .tarif-right-text h2 {
-    font:30pt 'Open Sans', sans-serif;
+    font:28pt 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -239,7 +306,7 @@ nav{
     margin: 30px 0px 20px 0px;
 }
 .tarif-blue-text {
-    padding: 15px 0px;
+    padding: 35px 0px 20px 0px;
     font:22pt 'Open Sans', sans-serif;
     font-weight: bold;
     color: #284f66;
@@ -266,7 +333,7 @@ nav{
     background: #fff;
 }
 th {
-    font:16pt 'Open Sans', sans-serif;
+    font:12pt 'Open Sans', sans-serif;
     color: #284f66;
     font-weight: bold;
 }
@@ -274,16 +341,64 @@ td:nth-child(2n) {
     background: #fff;
 }
 td:nth-child(n+2) {
-    font:20pt 'Open Sans', sans-serif;
+    font:16pt 'Open Sans', sans-serif;
     color: #49cd8a;
     font-weight: bold;
 }
 td:first-child {
-    font:16pt 'Open Sans', sans-serif;
+    font:12pt 'Open Sans', sans-serif;
 }
 .tarif-calc {
     background: #e6e6e6;
     border-radius: 5px;
+}
+#ex1Slider .slider-selection {
+	background: #49cd8a;
+}
+.calc-text-top {
+    margin-top: 20px;
+    font:12pt 'Open Sans', sans-serif;
+    border-bottom: 2px solid #d1d1d1;
+}
+.calc-text-bot {
+    margin: 20px 0px;
+    font:18pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #2b495a;
+}
+#result {
+    float: right;
+    font:17pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+.calc-text-pc {
+    margin-top: 10px;
+    font:11pt 'Open Sans', sans-serif;
+}
+#ex6SliderVal {
+    text-align: right;
+    font:11pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #d1d1d1;
+}
+#ex7SliderVal {
+    text-align: right;
+    font:11pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid #d1d1d1;
+}
+.after-men {background: linear-gradient(to right, #ffffff 0%,#49cd8a 15%,#49cd8a 80%,#49cd8a 85%,#ffffff 100%);
+    margin-top: 20px;
+    padding: 5px 60px;
+    color: #284f66;
+}
+.after-men-cont {
+    font:12pt 'Open Sans', sans-serif;
+}
+.after-men-strong {
+    font:20pt 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 /********** Принтеры **********/
 .printer-bg {
@@ -293,7 +408,7 @@ td:first-child {
 .printer-center-text {
     margin-top: 100px;
     color: #fff;
-    font:42pt 'Open Sans', sans-serif;
+    font:28pt 'Open Sans', sans-serif;
 }
 .printer-bg-green {
     background-color: #efefef;
@@ -358,7 +473,7 @@ td:first-child {
 }
 .printer-bot {
     margin-top: 100px;
-    font:15pt 'Open Sans', sans-serif;
+    font:12pt 'Open Sans', sans-serif;
 }
 /********** Софт **********/
 .soft-bg {
@@ -368,9 +483,9 @@ td:first-child {
 .soft-center-text {
     margin-top: 100px;
     color: #fff;
-    font:36pt 'Open Sans', sans-serif;}
+    font:28pt 'Open Sans', sans-serif;}
 .soft-center-text h2 {
-    font:30pt 'Open Sans', sans-serif;
+    font:28pt 'Open Sans', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -381,14 +496,14 @@ td:first-child {
     margin-top: 0px;
 }
 .soft-text-white{
-    padding: 20px 0px 10px 0px;
+    padding: 35px 0px 20px 0px;
     font:22pt 'Open Sans', sans-serif;
     font-weight: bold;
     color: #2b495a;
     text-transform: uppercase;
 }
 .soft-store {
-    background-color: #efefef;
+    background: linear-gradient(to bottom, #efefef , #fff 80%);
     color: #2b495a;
     font:18pt 'Open Sans', sans-serif;}
 .soft-store-top{
@@ -516,7 +631,7 @@ td:first-child {
     background-size: 100% 100%; 
 }
 .install-text-green {
-    padding: 20px 0px 20px 0px;
+    padding: 28px 0px 20px 0px;
     font:22pt 'Open Sans', sans-serif;
     font-weight: bold;
     color: #fff;
@@ -538,7 +653,6 @@ td:first-child {
     padding-left: 100px;
     font:18pt 'Open Sans', sans-serif;
     color: #2b495a;
-    font-weight: bold;
 }
 .install-orange-text {
     margin-top: 50px;
@@ -554,13 +668,69 @@ td:first-child {
 }
 .install-image {
     position: relative;
-	width: 100%; /* for IE 6 */
+	width: 100%;
     margin-top: 30px;
     margin-bottom: 100px;
+}
+.install-image2 {
+    position: relative;
+	width: 100%;
 }
 .install-bg-grad {
      background: linear-gradient(to top, #2b495a, #49c988);
 }
 .install-step-bg {
-    background: linear-gradient(to top, #efefef, #2b495a);
+    background: linear-gradient(to top, #efefef 65%, #2b495a);
+}
+/********** Создание сайта **********/
+.build-bg {
+    background: url(../images/bg-build.png) no-repeat center center;
+    background-size: cover; 
+}
+.build-bg-green {
+    background-color: #fff;
+    background: url(../images/green-line-build.png) no-repeat top;
+    background-size: 100% 100%;
+}
+.build-ol-padding {
+    padding-top: 10px;
+}
+.build-green-text {
+    margin-top: 50px;
+    background: linear-gradient(to right, #ffffff 0%,#2b495a 15%,#2b495a 80%,#2b495a 85%,#ffffff 100%);
+    padding: 10px;
+    font:21pt 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.build-help-bg {
+    background: #f4f4f4;
+    padding: 15px 0px;
+}
+.build-help-text {
+    padding: 30px 20px 0px 20px;
+    font:15pt 'Open Sans', sans-serif;
+    color: #2b495a;
+}
+.build-bot-banner{
+    background: url(../images/build1.png)no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0px;
+}
+.build-bot-banner p {
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.build-number-ol {
+    margin-top: 0px;
+}
+.build-number-ol img {
+    padding: 5px 0px;
+    float: left;
+}
+.build-number-ol p {
+    padding: 40px 0px 20px 200px;
+    font:22pt 'Open Sans', sans-serif;
+    color: #2b495a;    
 }

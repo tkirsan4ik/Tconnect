@@ -9,19 +9,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script>
-        // With JQuery
-            $("#ex6").slider();
-            $("#ex6").on("slide", function(slideEvt) {
-                $("#ex6SliderVal").text(slideEvt.value);
-            });
-
-            // Without JQuery
-            var slider = new Slider("#ex6");
-            slider.on("slide", function(slideEvt) {
-                $("#ex6SliderVal").text(slideEvt.value);
-            });)
-    </script>
+    <link href="bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar-default">
@@ -70,14 +58,14 @@
     </nav>
     <div class="container-fluid tarif-bg">
        <div class="container">
-            <div class="tarif-center-text col-lg-8 col-lg-offset-3">
+            <div class="tarif-center-text col-lg-6 col-lg-offset-3">
                    <p>Ищите кому поручить функцию IT аутсорсинга</p>
                    <h2>В вашем бизнесе?</h2>
             </div>
             <div class="tarif-right-text col-lg-12">
-                   <p>Получите персональное предложение по</p>
+                   <p style="font-size: 24pt;">Получите персональное предложение по</p>
                    <h2>IT аутсорсингу</h2>
-                   <p>от компании Тамбов-Коннект</p>
+                   <p style="font-size: 24pt;">от компании Тамбов-Коннект</p>
             </div>
             <div class="col-lg-12 tarif-form">
                 <form class="form-horizontal" role="form">
@@ -148,7 +136,14 @@
                 <div class="col-lg-12 tarif-block-p"><p>Мы обслуживаем вашу IT структура и можем предложить менее затратные и более эффективные способы ее организации. </p></div>
             </div>                                            
         </div>
-        <div class="col-lg-12 tarif-table">
+      </div>
+    <div class="container">
+        <div class="col-lg-12 text-center tarif-blue-text">
+            <p>ТАРИФЫ НА ОБСЛУЖИВАНИЕ КОМПЬЮТЕРОВ </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-10 col-lg-offset-1 tarif-table">
             <table class="table table-bordered">
                <tr>
                     <th class="text-center" style="border: 0px;">Услуги</th>
@@ -301,14 +296,83 @@
                     <th class="text-center" style="border: 0px;">Цена:</th>
                     <th class="text-center" style="border: 0px;">13 р./день</th>
                     <th class="text-center" style="border: 0px;">19 р/день.</th>
-                    <th class="text-center" style="border: 0px;">Расчитайте<br>стоимость<br>на калькуляторе</th>
+                    <th class="text-center" style="border: 0px;">Расчитайте<br>стоимость<br>на нашем <br> калькуляторе</th>
                 </tr>       
             </table>
         </div>
-        <div class="col-lg-6 tarif-calc">
-            <input id="ex6" type="text" data-slider-min="-5" data-slider-max="20" data-slider-step="1" data-slider-value="3"/>
-            <span id="ex6CurrentSliderValLabel">Current Slider Value: <span id="ex6SliderVal">3</span></span>
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-4 tarif-calc col-lg-offset-1">
+                <p class="calc-text-top">Расчитайте самостоятельно  стоимость по тарифу МАКСИМУМ</p>
+                <p class="calc-text-pc">Количество компьютеров</p>
+                <input id="ex6" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="50" data-slider-step="1" data-slider-value="0"/>
+                <p id="ex6SliderVal">0</p>
+                <p class="calc-text-pc">Количество серверов</p>
+                <input id="ex7" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="0"/>
+                <p id="ex7SliderVal">0</p>
+                <p class="calc-text-bot">Цена р./день <span id="result"> </span></p>
+            </div>
+            <div class="col-lg-7 text-center">
+                <img src="/images/men.png" alt="">
+            </div>
+            <div class="col-lg-7 after-men">
+                <p class="after-men-strong">Так выгодно?</p>
+                <p class="after-men-cont">Наши тарифы очень выгодны, для малых и срених офисов будут стоить не дороже бизнес- ланча, а для компаний с большим IT-парком заменят системного администратора за меньшие деньги, с лучшим пониманием внутренних процессов. </p>
+            </div>
         </div>               
+    </div>
+    <div class="container" style="margin-top: 40px;">
+        <div class="col-lg-8 col-lg-offset-2 printer-feedback-box">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="printer-feedback-top text-center">ВАМ НЕОБХОДИМА ПОМОЩЬ?</h3>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2"> 
+                    <p class="soft-feedback-top  text-center">Оставьте ваши контактные данные и мы свяжемся с вами:</h3> 
+                </div>
+                <form role="form">
+                    <div class="col-lg-4 col-lg-offset-2">
+                        <div class="form-group">
+                            <input class="form-control printer-feedback-form" type="text" size="50" name="contactname" id="contactname" value="" placeholder="Введите имя">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control printer-feedback-form" type="tel" size="50" name="phone" id="phone" value="" placeholder="+7(123) 456-78-90">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control printer-feedback-form" type="text" size="50" name="email" id="email" value="" placeholder="Введите e-mail-адрес">
+                        </div>                       
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <textarea class="form-control printer-feedback-form" rows="5" cols="50" name="message" id="message" value=""></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <div class="form-group">
+                            <button type="submit" class="btn printer-feedback-button">отправить</button>  
+                        </div>
+                    </div>                    
+                </form>                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-lg-12 printer-bot">
+            <h2>Обслуживание компьютеров:</h2>
+            <p>Единичные <strong>методы усовершенствования IT  парка</strong> не действуют. Дорогостоящая <strong>модернизация</strong> ваших <strong>компьютеров</strong> не даст нужного результата.  <strong>Покупка</strong> нужного <strong>программного обеспечения</strong> на один компьютер не значительно ускорит процесс работы всего офиса.  Всё это призвано показать одно в <strong>IT- аутсорсинге</strong> как и в командном спорте необходима стратегия. Держать системного администратора в организации не всегда выгодно, а <strong>стратегию развития it структуры</strong> мы разрабатываем под ключ.</p>
+            <p><strong>IT Аутсорсинг – передача IT  бизнес- процесса.</strong> Какие  функции будут выполнять для Вас наши специалисты:</p>
+            <ul>
+                <li>Разработка стратегии усовершенствования IT структуры</li>
+                <li>Обслуживание компьютеров</li>
+                <li>Сборка и обслуживание серверов</li>
+                <li>Ремонт и обслуживание оргтехники и периферии</li>
+                <li>Создание и продвижение сайтов</li>
+                <li>Продажа программного обеспечения</li>
+                <li>Монтаж локальных сетей проводных и беспроводных</li>
+            </ul>
+            <h2>ИТ – Аутсорсинг под ключ</h2>
+            <p><strong>IT аутсорсинг  компании,</strong> включает в себя множество направлений. Компании, которые обращаются к нам понимают, что <strong>создать</strong> такой <strong>IT отдел</strong> очень сложно и денежно затратно.</p>
+            <p>Найм одного системного администратора не даст должного эффекта и обойдется дороже, тогда как в нашей компании есть специалисты разного направления, которые будут Вам помогать в вопросах своей компетентности. Это дает дополнительное преимущество в качестве выполнения работ! В рамках данной работы мы предлагаем полное <strong>обслуживание ИТ парка:</strong> от создания и продвижения сайтов, до <strong>построения</strong> Вашей <strong>ИТ структуры</strong> с ноля.</p>
+        </div>
     </div>
     <footer>
         <div class="container">
@@ -321,5 +385,43 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+    <script src="bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.js" type="text/javascript"></script>
+    <script>
+        $("#ex6").slider();
+        $("#ex6").on("slide", function(slideEvt) {
+        $("#ex6SliderVal").text(slideEvt.value);
+        });
+        $("#ex7").slider();
+        $("#ex7").on("slide", function(slideEvt) {
+        $("#ex7SliderVal").text(slideEvt.value);
+        });
+        $(document).ready( function() {
+            var sum = function() {
+              if (pc.getValue() < 3) { 
+			     col = (pc.getValue()*38) + (lan.getValue() * 67);
+		      }
+		      else if (pc.getValue() < 7){ 
+			     col = (pc.getValue()*33) + (lan.getValue() * 67); 
+		      }
+	           else if (pc.getValue() < 15){ 
+		          col = (pc.getValue()*28) + (lan.getValue() * 67); 
+		      }
+		      else if (pc.getValue() < 24){
+		      col = (pc.getValue()*22) + (lan.getValue() * 67); 
+                }
+             else if (pc.getValue() < 50){ 
+	           col = (pc.getValue()*17) + (lan.getValue() * 67); 
+		      }
+            $('#result').text( col )
+            };
+            var pc = $('#ex6').slider()
+            .on('slide', sum)
+		      .data('slider');
+            var lan = $('#ex7').slider()
+            .on('slide', sum)
+		      .data('slider');
+            var col;
+	       });
+    </script>
   </body>
 </html>
